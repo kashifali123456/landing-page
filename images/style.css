@@ -1,8 +1,3 @@
-/* 
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  */
-
 * {
     margin: 0px;
     padding: 0px;
@@ -57,5 +52,62 @@ button {
 }
 
 .icons {
-    padding-left: 100px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 50px 0px 1020px;
+}
+
+.icon {
+    background-color: hsl(257, 40%, 49%);
+    width: 30px;
+    height: 18px;
+    text-align: center;
+    padding: 6px 0px 8px 0px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+.fab {
+    color: #fff;
+}
+
+button:hover {
+    background-color: hsl(300, 69%, 71%);
+    color: #fff;
+}
+
+.icon:hover {
+    border-color: hsl(300, 69%, 71%);
+}
+
+.fab:hover {
+    color: hsl(300, 69%, 71%);
+}
+
+@media (max-width:700px) {
+    .outer {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .inner {
+        padding: 30px 5px 10px 23px;
+        text-align: center;
+        width: 665px;
+    }
+    h1 {
+        font-size: 60px;
+    }
+    p {
+        font-size: 35px;
+    }
+    .btn {
+        padding-top: 65px;
+    }
+    button {
+        width: 400px;
+        height: 90px;
+        font-size: 30px;
+    }
 }
