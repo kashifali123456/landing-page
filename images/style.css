@@ -87,20 +87,21 @@ button:hover {
 
 @media (max-width:700px) {
     .outer {
-        display: flex;
-        justify-content: space-between;
         flex-direction: column;
     }
+    .outer img {
+        width: 625px;
+    }
     .inner {
-        padding: 30px 5px 10px 23px;
+        padding: 38px 0px 10px 0px;
         text-align: center;
-        width: 665px;
+        width: 619px;
     }
     h1 {
-        font-size: 60px;
+        font-size: 52px;
     }
     p {
-        font-size: 35px;
+        font-size: 33px;
     }
     .btn {
         padding-top: 65px;
@@ -109,5 +110,16 @@ button:hover {
         width: 400px;
         height: 90px;
         font-size: 30px;
+    }
+    .icons {
+        padding: 10px 200px;
+    }
+    .icon {
+        width: 73px;
+        height: 60px;
+        font-size: 40px;
+    }
+    .layout {
+        padding: 52px 25px;
     }
 }
