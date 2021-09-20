@@ -122,4 +122,10 @@ button:hover {
     .layout {
         padding: 52px 25px;
     }
+    .icon:hover {
+        border-color: hsl(300, 69%, 71%);
+    }
+    .fab:hover {
+        color: hsl(300, 69%, 71%);
+    }
 }
